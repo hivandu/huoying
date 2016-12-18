@@ -1,0 +1,82 @@
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.transition {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+/*======================================================================
+      Global
+  ======================================================================*/
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+html {
+  font-family: "microsoft yahei", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+  margin: 0  auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+a,
+button,
+span {
+  -webkit-font-smoothing: antialiased;
+}
+
+input {
+  outline: none;
+}
+
+.pa {
+  position: absolute;
+}
+
+/* psd width `divided` 10 */
+
+/* 750/10=75 */
+
+/* the class "content" is used for flexible plugin */
+
+.content {
+  display: block;
+  min-width: 320px;
+  margin: 0 auto;
+  max-width: 1080px;
+  background: #FFF;
+}
+
+.content img {
+  width: 100%;
+  border: 0;
+  display: block;
+}
+
+.content .gif {
+  width: 92.2%;
+  margin: 0 auto;
+  background: #FFF;
+}
+
+/*======================================================================
+      Responsive
+  ======================================================================*/
